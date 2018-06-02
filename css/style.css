@@ -1,0 +1,189 @@
+body {
+  margin: 0 auto;
+}
+
+section {
+  height: 90vh;
+}
+
+#banner{
+  height: 10vh;
+  background-color: #FFF;
+}
+
+#banner img{
+  height: 30px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+
+#one {
+  background: url("images/main.jpeg")
+  no-repeat center left fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main-text {
+  padding-top: 10%;
+}
+
+.main-text h1 {
+  color: #F2F2F2;
+  margin-left: 20%;
+  font-size: 3rem;
+}
+
+.sub-text h5 {
+  color: #F2F2F2;
+  margin-left: 20%;
+  font-size: 1.5rem;
+}
+
+button {
+  background-color: #71C5E8;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 5%;
+  border-style: none;
+  margin-left: 20%;
+}
+
+button a {
+  color: #F2F2F2;
+  text-decoration: none;
+  font-size: 0.6rem;
+}
+
+.scroll-bottom {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fa-angle-down {
+  color: #FFF;
+}
+
+#two {
+  background: url("images/office.jpeg")
+  no-repeat center left fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* #three {
+  display: grid;
+  grid-template-columns: 40vw 60vw 60vw 40vw
+} */
+
+#gridOne {
+  float: left;
+  height: 50%;
+  width: 40%;
+}
+
+#gridOne img, #gridTwo img, #gridThree img {
+  height: 100%;
+  width: 100%;
+}
+
+#gridTwo {
+  float: right;
+  height: 50%;
+  width: 60%;
+}
+
+#gridThree {
+  float: left;
+  height: 50%;
+  width: 60%;
+}
+
+#gridFour {
+  background-color: #F0F0F0;
+  float: right;
+  height: 50%;
+  width: 40%;
+}
+
+#gridFour img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15%;
+  height: 50%;
+  width: 50%;
+}
+
+#four {
+  background-color: #FFF;
+  height: 50vh;
+}
+
+.clients {
+  margin: 10%;
+}
+
+.clients h2 {
+  font-weight: bold;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clients .flex-container div {
+  width: 20%;
+}
+
+.clients .flex-container img {
+  height: 72%;
+  width: 65%;
+}
+
+#five {
+  background-color: #E9E9E9;
+}
+
+.back-to-top {
+  padding-top: 5%;
+  text-align: center;
+}
+
+.contact-logo {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  display: block;
+  text-align: center;
+}
+
+.contact-logo h1 {
+  font-size: 2rem;
+}
+
+.contact small {
+  font-size: 0.8em;
+}
+
+.contact .flex-container div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 13%;
+}
+
+.contact p {
+  font-size: 0.8em;
+}
+
+.contact a {
+  text-decoration: none;
+  color: lightblue;
+}
