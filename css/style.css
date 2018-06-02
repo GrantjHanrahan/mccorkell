@@ -3,7 +3,7 @@ body {
 }
 
 section {
-  height: 90vh;
+  height: 95vh;
 }
 
 #banner{
@@ -30,19 +30,20 @@ section {
 }
 
 .main-text {
-  padding-top: 10%;
+  padding-top: 8%;
 }
 
 .main-text h1 {
   color: #F2F2F2;
-  margin-left: 20%;
+  margin-left: 22%;
   font-size: 3rem;
 }
 
-.sub-text h5 {
+.sub-text p {
   color: #F2F2F2;
-  margin-left: 20%;
+  margin-left: 22%;
   font-size: 1.5rem;
+  font-weight: lighter;
 }
 
 button {
@@ -51,7 +52,7 @@ button {
   text-align: center;
   border-radius: 5%;
   border-style: none;
-  margin-left: 20%;
+  margin-left: 22%;
 }
 
 button a {
@@ -158,6 +159,18 @@ button a {
   text-align: center;
 }
 
+.back-to-top small {
+  font-size: 0.6rem;
+}
+
+.back-to-top a {
+  color: black;
+}
+
+.back-to-top i {
+  font-size: 1.7rem;
+}
+
 .contact-logo {
   padding-top: 1%;
   padding-bottom: 1%;
@@ -167,10 +180,12 @@ button a {
 
 .contact-logo h1 {
   font-size: 2rem;
+  margin-bottom: 0;
 }
 
 .contact small {
-  font-size: 0.8em;
+  margin-top: 0;
+  font-size: 0.7em;
 }
 
 .contact .flex-container div {
@@ -186,4 +201,25 @@ button a {
 .contact a {
   text-decoration: none;
   color: lightblue;
+}
+
+.contact-enquiry {
+  /* display: inline-block; */
+  display: flex;
+  text-align: center;
+  margin-left: 35vw;
+}
+
+#blue-circle {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin: 0% 2%;
+  background-color: #71C5E8;
+}
+
+.fa-envelope {
+  color: #FFF;
+  font-size: 2rem;
+  padding-top: 20px;
 }
