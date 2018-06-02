@@ -27,7 +27,7 @@ section {
 }
 
 #main {
-  background: url("images/main.jpeg")
+  background: url("images/main.jpg")
   no-repeat center left fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -84,7 +84,7 @@ button a {
 }
 
 #about {
-  background: url("images/office.jpeg")
+  background: url("images/office.jpg")
   no-repeat center left fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
