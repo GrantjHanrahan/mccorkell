@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin|PT+Serif');
+
 body {
   margin: 0 auto;
 }
@@ -6,7 +8,7 @@ section {
   height: 95vh;
 }
 
-#three {
+#work {
   height: 100vh;
 }
 
@@ -16,15 +18,15 @@ section {
 }
 
 #banner img{
-  height: 30px;
-  width: 200px;
+  height: 25px;
+  width: 165px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 12px;
+  padding-top: 2%;
 }
 
-#one {
+#main {
   background: url("images/main.jpeg")
   no-repeat center left fixed;
   -webkit-background-size: cover;
@@ -38,16 +40,20 @@ section {
 }
 
 .main-text h1 {
+  font-family: 'PT Serif', serif;
+  font-weight: 800;
   color: #F2F2F2;
   margin-left: 22%;
   font-size: 3rem;
 }
 
 .sub-text p {
+  font-family: 'Libre Franklin', sans-serif;
   color: #F2F2F2;
   margin-left: 22%;
   font-size: 1.5rem;
   font-weight: lighter;
+  line-height: 150%;
 }
 
 button {
@@ -60,13 +66,14 @@ button {
 }
 
 button a {
+  font-family: 'Libre Franklin', sans-serif;
   color: #F2F2F2;
   text-decoration: none;
   font-size: 0.6rem;
 }
 
 .scroll-bottom i {
-  margin-top: 12%;
+  margin-top: 28vh;
   margin-left: 50%;
   margin-right: auto;
 }
@@ -76,7 +83,7 @@ button a {
   font-size: 1.7rem;
 }
 
-#two {
+#about {
   background: url("images/office.jpeg")
   no-repeat center left fixed;
   -webkit-background-size: cover;
@@ -124,7 +131,7 @@ button a {
   width: 50%;
 }
 
-#four {
+#clients {
   background-color: #FFF;
   height: 50vh;
 }
@@ -134,7 +141,9 @@ button a {
 }
 
 .clients h2 {
-  font-weight: bold;
+  font-family: 'PT Serif', serif;
+  font-weight: 800;
+  color: #002C45;
 }
 
 .flex-container {
@@ -156,7 +165,7 @@ button a {
   width: 60% !important;
 }
 
-#five {
+#contact_us {
   background-color: #E9E9E9;
 }
 
@@ -166,6 +175,7 @@ button a {
 }
 
 .back-to-top small {
+  font-family: 'Libre Franklin', sans-serif;
   font-size: 0.6rem;
 }
 
@@ -180,18 +190,21 @@ button a {
 .contact-logo {
   padding-top: 1%;
   padding-bottom: 1%;
+  margin-bottom: 2%;
   display: block;
   text-align: center;
 }
 
 .contact-logo h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   margin-bottom: 0;
 }
 
 .contact small {
+  font-family: 'Libre Franklin', sans-serif;
   margin-top: 0;
   font-size: 0.7em;
+  letter-spacing: 1.5px;
 }
 
 .contact .flex-container div {
@@ -200,8 +213,15 @@ button a {
   width: 13%;
 }
 
+.contact h5 {
+  font-weight: 900;
+  font-family: 'PT Serif', serif;
+}
+
 .contact p {
-  font-size: 0.8em;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 0.6em;
+  line-height: 150%;
 }
 
 .contact a {
@@ -214,6 +234,11 @@ button a {
   text-align: center;
   margin-top: 4%;
   margin-left: 37%;
+}
+
+.contact-enquiry h1 {
+  font-family: 'PT Serif', serif;
+  color: #002856;
 }
 
 #blue-circle {
@@ -237,7 +262,7 @@ button a {
 
 .social div {
   width: 4% !important;
-  margin-top: 5%;
+  margin-top: 8%;
   margin-left: 0.5% !important;
   margin-right: 0.5% !important;
 }
@@ -248,8 +273,10 @@ button a {
 }
 
 .copyright {
+  font-family: 'Libre Franklin', sans-serif;
   color: #91A0B4;
   font-size: 0.5rem;
   margin-bottom: 0;
-  margin-left: 44%;
+  margin-top: 3%;
+  margin-left: 43%;
 }
