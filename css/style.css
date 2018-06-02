@@ -6,6 +6,10 @@ section {
   height: 95vh;
 }
 
+#three {
+  height: 100vh;
+}
+
 #banner{
   height: 10vh;
   background-color: #FFF;
@@ -61,13 +65,15 @@ button a {
   font-size: 0.6rem;
 }
 
-.scroll-bottom {
-  margin-left: auto;
+.scroll-bottom i {
+  margin-top: 12%;
+  margin-left: 50%;
   margin-right: auto;
 }
 
 .fa-angle-down {
   color: #FFF;
+  font-size: 1.7rem;
 }
 
 #two {
@@ -79,15 +85,22 @@ button a {
   background-size: cover;
 }
 
-/* #three {
-  display: grid;
-  grid-template-columns: 40vw 60vw 60vw 40vw
-} */
-
 #gridOne {
   float: left;
   height: 50%;
-  width: 40%;
+  width: 45%;
+}
+
+#gridTwo {
+  float: right;
+  height: 50%;
+  width: 55%;
+}
+
+#gridThree {
+  float: left;
+  height: 50%;
+  width: 55%;
 }
 
 #gridOne img, #gridTwo img, #gridThree img {
@@ -95,23 +108,11 @@ button a {
   width: 100%;
 }
 
-#gridTwo {
-  float: right;
-  height: 50%;
-  width: 60%;
-}
-
-#gridThree {
-  float: left;
-  height: 50%;
-  width: 60%;
-}
-
 #gridFour {
   background-color: #F0F0F0;
   float: right;
   height: 50%;
-  width: 40%;
+  width: 45%;
 }
 
 #gridFour img {
@@ -145,9 +146,14 @@ button a {
   width: 20%;
 }
 
-.clients .flex-container img {
-  height: 72%;
-  width: 65%;
+.clients img {
+  height: 70%;
+  width: 67%;
+}
+
+#logo-three img {
+  height: 83% !important;
+  width: 60% !important;
 }
 
 #five {
@@ -200,11 +206,10 @@ button a {
 
 .contact a {
   text-decoration: none;
-  color: lightblue;
+  color: #71C5E8;
 }
 
 .contact-enquiry {
-  /* display: inline-block; */
   display: flex;
   text-align: center;
   margin-top: 4%;
