@@ -387,6 +387,11 @@ button a {
 
 @media screen and (max-width: 600px) {
 
+  body {
+    max-width: 100vw;
+    /* margin: 0 auto; */
+  }
+
     #banner {
       height: 8vh;
     }
@@ -433,7 +438,7 @@ button a {
     }
 
     .clients {
-      margin-left: 15vw;
+      margin-left: 10vw;
     }
 
     .clients div {
@@ -442,8 +447,12 @@ button a {
       height: auto;
     }
 
+    #contact_us {
+      height: 75vh;
+    }
+
     .contact-logo h1, .contact-enquiry h1 {
-      margin-top: 3%;
+      margin-top: 5%;
     }
 
     .contact-logo h1 {
@@ -452,6 +461,7 @@ button a {
 
     .contact-enquiry h1 {
       font-size: 1.1rem;
+      margin-top: 15%;
 
     }
 
@@ -472,12 +482,13 @@ button a {
     }
 
     .contact-enquiry h1 {
-      margin-top: 0.5%;
+      margin-top: 5%;
     }
 
     .social div {
-      margin-left: 5% !important;
-      margin-bottom: 2%;
+      margin-left: 8% !important;
+      margin-top: 15%;
+      padding-bottom: 10%;
     }
 
     #blue-circle {
@@ -488,7 +499,5 @@ button a {
     .fa-envelope {
       padding-top: 12px;
     }
-
-
 
   }
