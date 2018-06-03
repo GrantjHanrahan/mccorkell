@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin|PT+Serif');
 
+
+/* ------------------------------------------------------------ */
+/* General Styles */
+
 body {
   margin: 0 auto;
 }
@@ -8,9 +12,8 @@ section {
   height: 95vh;
 }
 
-#work {
-  height: 100vh;
-}
+/* ------------------------------------------------------------ */
+/* McCorkell banner */
 
 #banner{
   height: 10vh;
@@ -25,6 +28,9 @@ section {
   margin-right: auto;
   padding-top: 2%;
 }
+
+/* ------------------------------------------------------------ */
+/* Section 1 - main */
 
 #main {
   background: url("images/main.jpg")
@@ -83,6 +89,9 @@ button a {
   font-size: 1.7rem;
 }
 
+/* ------------------------------------------------------------ */
+/* Section 2 - about */
+
 #about {
   background: url("images/office.jpg")
   no-repeat center left fixed;
@@ -131,6 +140,16 @@ button a {
   width: 50%;
 }
 
+/* ------------------------------------------------------------ */
+/* Section 4 - work */
+
+#work {
+  height: 100vh;
+}
+
+/* ------------------------------------------------------------ */
+/* Section 5 - clients */
+
 #clients {
   background-color: #FFF;
   height: 50vh;
@@ -164,6 +183,9 @@ button a {
   height: 83% !important;
   width: 60% !important;
 }
+
+/* ------------------------------------------------------------ */
+/* Section 6 - contact us */
 
 #contact_us {
   background-color: #E9E9E9;
@@ -262,7 +284,7 @@ button a {
 
 .social div {
   width: 4% !important;
-  margin-top: 8%;
+  margin-top: 6%;
   margin-left: 0.5% !important;
   margin-right: 0.5% !important;
 }
@@ -277,23 +299,37 @@ button a {
   color: #91A0B4;
   font-size: 0.5rem;
   margin-bottom: 0;
-  margin-top: 3%;
+  margin-top: 2%;
   margin-left: 43%;
 }
 
+/* ------------------------------------------------------------ */
+/* Media Queries - sreens with max-width 900px */
 
 @media screen and (max-width: 900px) {
+  body {
+    background-color: yellow;
+  }
 
     #banner img {
-      padding-top: 5%;
+      padding-top: 3%;
     }
 
     .main-text h1 {
-      margin-top: 17%;
+      margin-top: 8%;
+      margin-left: 18% !important;
+      font-size: 2.5rem;
+    }
+
+    .main-text h1, .sub-text p, button {
       margin-left: 18% !important;
     }
     .sub-text p {
       font-size: 1.5rem;
+    }
+
+    .scroll-bottom i {
+      margin-top: 10%;
     }
 
     section {
@@ -305,11 +341,11 @@ button a {
     }
 
     #gridFour img {
-      margin-top: 17%;
+      margin-top: 5%;
     }
 
     #clients {
-      height: 30vh;
+      height: 10%;
       margin-top: 0;
       padding-top: 1%;
     }
@@ -318,35 +354,45 @@ button a {
       font-size: 1.8em;
     }
 
+    .clients {
+      margin: 5%;
+    }
+
     .clients a {
       padding: 1%;
       width: 20%;
       height: auto;
     }
 
+    #contact_us {
+      height: 95vh;
+    }
+
     .contact-logo h1, .contact-enquiry h1 {
-      margin-top: 5%;
+      margin-top: 2%;
     }
 
     .contact h5 {
-      font-size: 1.1em;
-    }
-
-    .contact p {
       font-size: 0.8em;
     }
 
-    .social div {
-      margin-left: 2% !important;
+    .contact p {
+      font-size: 0.7em;
     }
 
-
+    .social div {
+      margin-left: 4% !important;
+    }
 }
 
+/* ------------------------------------------------------------ */
+/* Media Queries - sreens with max-width 600px */
+
 @media screen and (max-width: 600px) {
-    body {
-        background-color: lightgreen;
-    }
+
+  body {
+    background-color: green;
+  }
 
     #banner {
       height: 7vh;
@@ -358,13 +404,13 @@ button a {
     }
 
     .main-text h1 {
-      margin-top: 17%;
+      margin-top: 12%;
       margin-left: 18% !important;
       font-size: 1.5rem;
     }
 
     .scroll-bottom i {
-      margin-top: 20%;
+      margin-top: 10%;
     }
 
     .sub-text p {
@@ -389,9 +435,13 @@ button a {
       font-size: 1.2em;
     }
 
+    .clients {
+      margin-left: 15vw;
+    }
+
     .clients div {
       padding-top: 2%;
-      width: 320px;
+      width: 350px;
       height: auto;
     }
 
@@ -410,28 +460,24 @@ button a {
     }
 
     .contact-logo small {
-      font-size: 0.5em;
+      font-size: 0.6em;
     }
 
     .contact h5 {
-      font-size: 0.5em;
+      font-size: 0.6em;
     }
 
     .contact p {
-      font-size: 0.4em;
+      font-size: 0.5em;
     }
 
-    .contact-enquiry {
-      margin-left: 20%;
-    }
-
-    .social, .copyright {
-      margin-left: 25%;
+    .contact-enquiry, .social, .copyright {
+      margin-left: 30%;
     }
 
     .social div {
       margin-left: 5% !important;
-      /* margin-right: 3% !important; */
+      margin-bottom: 2%;
     }
 
     #blue-circle {
