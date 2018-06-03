@@ -307,16 +307,13 @@ button a {
 /* Media Queries - sreens with max-width 900px */
 
 @media screen and (max-width: 900px) {
-  body {
-    background-color: yellow;
-  }
 
     #banner img {
       padding-top: 3%;
     }
 
     .main-text h1 {
-      margin-top: 8%;
+      margin-top: 6%;
       margin-left: 18% !important;
       font-size: 2.5rem;
     }
@@ -325,7 +322,7 @@ button a {
       margin-left: 18% !important;
     }
     .sub-text p {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
 
     .scroll-bottom i {
@@ -333,7 +330,7 @@ button a {
     }
 
     section {
-      height: 80vh;
+      height: 85vh;
     }
 
     #work {
@@ -365,11 +362,11 @@ button a {
     }
 
     #contact_us {
-      height: 95vh;
+      height: 100vh;
     }
 
     .contact-logo h1, .contact-enquiry h1 {
-      margin-top: 2%;
+      margin-top: 0.5%;
     }
 
     .contact h5 {
@@ -377,7 +374,7 @@ button a {
     }
 
     .contact p {
-      font-size: 0.7em;
+      font-size: 0.6em;
     }
 
     .social div {
@@ -390,23 +387,23 @@ button a {
 
 @media screen and (max-width: 600px) {
 
-  body {
-    background-color: green;
-  }
-
     #banner {
-      height: 7vh;
+      height: 8vh;
     }
 
     #banner img {
       height: 15px;
-      width: 110px;
+      width: 100px;
     }
 
     .main-text h1 {
-      margin-top: 12%;
+      margin-top: 6%;
       margin-left: 18% !important;
       font-size: 1.5rem;
+    }
+
+    button {
+      padding: 7px 10px;
     }
 
     .scroll-bottom i {
@@ -418,7 +415,7 @@ button a {
     }
 
     section {
-      height: 65vh;
+      height: 70vh;
     }
 
     #work {
@@ -446,13 +443,12 @@ button a {
     }
 
     .contact-logo h1, .contact-enquiry h1 {
-      margin-top: 5%;
+      margin-top: 3%;
     }
 
     .contact-logo h1 {
       font-size: 1.4rem;
     }
-
 
     .contact-enquiry h1 {
       font-size: 1.1rem;
@@ -460,7 +456,7 @@ button a {
     }
 
     .contact-logo small {
-      font-size: 0.6em;
+      font-size: 0.4em;
     }
 
     .contact h5 {
@@ -473,6 +469,10 @@ button a {
 
     .contact-enquiry, .social, .copyright {
       margin-left: 30%;
+    }
+
+    .contact-enquiry h1 {
+      margin-top: 0.5%;
     }
 
     .social div {
