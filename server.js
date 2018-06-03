@@ -5,10 +5,6 @@ const path = require('path');
 const port = process.env.PORT || 8080;
 const moment = require('moment');
 
-const bodyParser = require('body-parser');
-// app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
-
 // CORS Header
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");

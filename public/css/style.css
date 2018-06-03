@@ -280,3 +280,169 @@ button a {
   margin-top: 3%;
   margin-left: 43%;
 }
+
+
+@media screen and (max-width: 900px) {
+
+    #banner img {
+      padding-top: 5%;
+    }
+
+    .main-text h1 {
+      margin-top: 17%;
+      margin-left: 18% !important;
+    }
+    .sub-text p {
+      font-size: 1.5rem;
+    }
+
+    section {
+      height: 80vh;
+    }
+
+    #work {
+      height: 70vh;
+    }
+
+    #gridFour img {
+      margin-top: 17%;
+    }
+
+    #clients {
+      height: 30vh;
+      margin-top: 0;
+      padding-top: 1%;
+    }
+
+    #clients h2 {
+      font-size: 1.8em;
+    }
+
+    .clients a {
+      padding: 1%;
+      width: 20%;
+      height: auto;
+    }
+
+    .contact-logo h1, .contact-enquiry h1 {
+      margin-top: 5%;
+    }
+
+    .contact h5 {
+      font-size: 1.1em;
+    }
+
+    .contact p {
+      font-size: 0.8em;
+    }
+
+    .social div {
+      margin-left: 2% !important;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    #banner {
+      height: 7vh;
+    }
+
+    #banner img {
+      height: 15px;
+      width: 110px;
+    }
+
+    .main-text h1 {
+      margin-top: 17%;
+      margin-left: 18% !important;
+      font-size: 1.5rem;
+    }
+
+    .scroll-bottom i {
+      margin-top: 20%;
+    }
+
+    .sub-text p {
+      font-size: 1rem;
+    }
+
+    section {
+      height: 65vh;
+    }
+
+    #work {
+      height: 60vh;
+    }
+
+    #clients {
+      height: 30vh;
+      margin-top: 0;
+      padding-top: 1%;
+    }
+
+    #clients h2 {
+      font-size: 1.2em;
+    }
+
+    .clients div {
+      padding-top: 2%;
+      width: 320px;
+      height: auto;
+    }
+
+    .contact-logo h1, .contact-enquiry h1 {
+      margin-top: 5%;
+    }
+
+    .contact-logo h1 {
+      font-size: 1.4rem;
+    }
+
+
+    .contact-enquiry h1 {
+      font-size: 1.1rem;
+
+    }
+
+    .contact-logo small {
+      font-size: 0.5em;
+    }
+
+    .contact h5 {
+      font-size: 0.5em;
+    }
+
+    .contact p {
+      font-size: 0.4em;
+    }
+
+    .contact-enquiry {
+      margin-left: 20%;
+    }
+
+    .social, .copyright {
+      margin-left: 25%;
+    }
+
+    .social div {
+      margin-left: 5% !important;
+      /* margin-right: 3% !important; */
+    }
+
+    #blue-circle {
+      height: 50px;
+      width: 50px;
+    }
+
+    .fa-envelope {
+      padding-top: 12px;
+    }
+
+
+
+  }
