@@ -79,7 +79,8 @@ button a {
 }
 
 .scroll-bottom i {
-  margin-top: 28vh;
+  position: relative;
+  padding-top: 20vh;
   margin-left: 50%;
   margin-right: auto;
 }
